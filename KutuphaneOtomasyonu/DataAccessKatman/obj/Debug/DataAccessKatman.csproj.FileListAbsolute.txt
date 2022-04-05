@@ -1,0 +1,6 @@
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\DataAccessKatman\bin\Debug\DataAccessKatman.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\DataAccessKatman\bin\Debug\DataAccessKatman.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\DataAccessKatman\obj\Debug\DataAccessKatman.csproj.AssemblyReference.cache
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\DataAccessKatman\obj\Debug\DataAccessKatman.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\DataAccessKatman\obj\Debug\DataAccessKatman.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\DataAccessKatman\obj\Debug\DataAccessKatman.pdb

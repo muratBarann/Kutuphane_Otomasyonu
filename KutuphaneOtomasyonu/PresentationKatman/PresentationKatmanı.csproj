@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E4CF8D1-090B-4BDC-8042-9C47BA265866}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KutuphaneOtomasyonu</RootNamespace>
+    <AssemblyName>KutuphaneOtomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\WK\zedgraph_dll_v515\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmanetVerme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmanetVerme.Designer.cs">
+      <DependentUpon>EmanetVerme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grafikGosterimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grafikGosterimi.Designer.cs">
+      <DependentUpon>grafikGosterimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="islemArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="islemArama.Designer.cs">
+      <DependentUpon>islemArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapIslemleri.Designer.cs">
+      <DependentUpon>kitapIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapIslemleriAna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapIslemleriAna.Designer.cs">
+      <DependentUpon>kitapIslemleriAna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciIslemleri.Designer.cs">
+      <DependentUpon>OgrenciIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EmanetVerme.resx">
+      <DependentUpon>EmanetVerme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grafikGosterimi.resx">
+      <DependentUpon>grafikGosterimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="islemArama.resx">
+      <DependentUpon>islemArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapIslemleri.resx">
+      <DependentUpon>kitapIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapIslemleriAna.resx">
+      <DependentUpon>kitapIslemleriAna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciIslemleri.resx">
+      <DependentUpon>OgrenciIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessKatmani\BusinessKatmani.csproj">
+      <Project>{5616efb4-1f37-40b6-ab86-5781f2dbd1a4}</Project>
+      <Name>BusinessKatmani</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessKatman\DataAccessKatman.csproj">
+      <Project>{eed97e4e-569a-4e8b-a49e-a504f32662fd}</Project>
+      <Name>DataAccessKatman</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityKatmanı\EntityKatmanı.csproj">
+      <Project>{dcf56849-9e18-4ad1-93f5-9503a0bc7fe3}</Project>
+      <Name>EntityKatmanı</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

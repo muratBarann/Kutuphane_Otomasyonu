@@ -1,0 +1,6 @@
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\EntityKatmanı\bin\Debug\EntityKatmanı.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\EntityKatmanı\bin\Debug\EntityKatmanı.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\EntityKatmanı\obj\Debug\EntityKatmanı.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\EntityKatmanı\obj\Debug\EntityKatmanı.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\EntityKatmanı\obj\Debug\EntityKatmanı.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\EntityKatmanı\obj\Debug\EntityKatmanı.csproj.AssemblyReference.cache

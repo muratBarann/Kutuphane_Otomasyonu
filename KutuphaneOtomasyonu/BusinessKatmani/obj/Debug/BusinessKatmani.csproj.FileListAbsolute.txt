@@ -1,0 +1,11 @@
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\bin\Debug\BusinessKatmani.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\bin\Debug\BusinessKatmani.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\bin\Debug\DataAccessKatman.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\bin\Debug\EntityKatmanı.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\bin\Debug\DataAccessKatman.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\bin\Debug\EntityKatmanı.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\obj\Debug\BusinessKatmani.csproj.AssemblyReference.cache
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\obj\Debug\BusinessKatmani.csproj.CoreCompileInputs.cache
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\obj\Debug\BusinessKatmani.dll
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\obj\Debug\BusinessKatmani.pdb
+C:\Users\Murat\Desktop\KutuphaneOtomasyonu\BusinessKatmani\obj\Debug\BusinessKatmani.csproj.CopyComplete
